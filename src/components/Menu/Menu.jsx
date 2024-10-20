@@ -45,7 +45,7 @@ const Menu = () => {
         <div className="mad-col">
           <a href="#" className="mad-menu-item">
             <i className="mad-menu-icon">
-              <img className="svg" src="./src/assets/pasta.svg" alt="Pasta" />
+              <img className="svg" src="/pasta.svg" alt="Pasta" />
             </i>
             <h6 className="mad-menu-title">Pasta</h6>
           </a>

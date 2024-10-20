@@ -36,7 +36,7 @@ const RevolutionSlider = () => {
           >
             {/* MAIN IMAGE */}
             <img
-              src="src/assets/6cbea-bg1.jpg"
+              src="./src/assets/6cbea-bg1.jpg"
               alt="Slide background"
               className="rev-slidebg"
               data-bgposition="center center"

@@ -1,0 +1,99 @@
+.mad-half-section .mad-col:first-child .mad-half-section-item {
+  justify-content: flex-end;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.mad-half-section .mad-col {
+  width: 50%;
+  padding: 2rem 1rem 0;
+  padding-top: 2rem;
+  padding-right: 1rem;
+  padding-bottom: 0px;
+  padding-left: 1rem;
+  max-width: 850px;
+}
+
+
+.mad-half-section-item {
+  text-align: center;
+  display: flex;
+  background-size: cover;
+  padding: 10rem 3.875rem;
+    
+   
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  position: relative;
+  z-index: 0;
+  
+  
+  
+}
+
+.mad-half-content .mad-page-title:not(:last-child) {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 3.75rem;
+  line-height: 4.5rem;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  
+}
+
+.mad-half-section {
+  display: flex;
+  justify-content: space-between; /* Adds space between the columns */
+  gap: 10px; /* Adjust this value for the desired gap between the two sections */
+  
+}
+
+[data-bg-image-src] {
+  
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mad-half-content .mad-page-title {
+  color: #fff;
+}
+
+.mad-half-section-item .mad-half-content {
+  color: #e6e6e6;
+  font-size: 20px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  
+}
+
+.btn {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  position: relative;
+
+}
+
+.btn-big {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  padding: 1.25rem 2.5rem 1.25rem;
+  padding-top: 1.25rem;
+  padding-right: 2.5rem;
+  padding-bottom: 1.25rem;
+  padding-left: 2.5rem;
+}
+

@@ -1,0 +1,161 @@
+
+.mad-title-wrap {
+  text-align: center;
+  position: relative;
+  z-index: 1; /* Ensuring the content is above the background */
+}
+
+h2.mad-page-title {
+  font-size: 3.75rem;
+  line-height: 4.5rem;
+  letter-spacing: -2px;
+  margin-bottom: 2rem;
+  color: #232223;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+
+.mad-col {
+  flex: 1;
+  text-align: center; /* Center-aligns text and content */
+}
+
+.mad-icon-box {
+  display: flex;
+  flex-direction: column; /* Stacks icon, title, and description vertically */
+  align-items: center; /* Centers content horizontally */
+  justify-content: flex-start; /* Ensures content aligns from the top */
+  
+}
+
+
+.mad-icon-box-icon {
+  width: 100px;  /* Set your desired icon width */
+  height: 100px; /* Set your desired icon height */
+  margin-bottom: 15px; /* Adds space between the icon and the title */
+}
+
+.mad-icon-box-icon img {
+  width: 100%;  /* Ensures the image fits inside the container */
+  height: 100%; /* Ensures the image fits inside the container */
+  object-fit: contain; /* Prevents image distortion */
+}
+
+
+.mad-icon-box-content p {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 0; /* Ensures no extra margin below the description */
+}
+.mad-icon-boxes.style-3 .mad-icon-box .mad-icon-box-icon .svg path {
+  fill: #eb0029; /* Fills the path with red */
+}
+
+.mad-icon-box .mad-icon-box-icon .svg .cls-1 {
+  stroke: none; /* Removes any stroke, as you want a fill */
+  fill: #eb0029; /* Ensures the path is filled with red */
+  stroke-linecap: round; /* Makes the stroke line cap round */
+  stroke-linejoin: round; /* Ensures corners of strokes are rounded */
+  stroke-width: 0; /* Ensures there is no stroke if stroke was present */
+}
+
+.cls-1 {
+  fill-rule: evenodd; /* Ensures proper filling behavior */
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.mad-icon-boxes.with-arrows .mad-icon-box {
+  position: relative;
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+
+/* Ensure that .svg path is correctly targeted if it has specific classes or IDs */
+.svg path {
+  fill: #eb0029 !important; /* Overrides any other conflicting styles */
+}
+
+.mad-icon-box .mad-icon-box-title {
+  letter-spacing: -1px;
+}
+
+h5 {
+  font-size: 1.875rem;
+  line-height: 2.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #232223;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+
+}
+
+p {
+  line-height: inherit;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+
+
+
+
+
+
+.mad-title-wrap p {
+  font-size: 1.25rem;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.8;
+  
+}
+
+
+.mad-colorizer--scheme-color-2 > .mad-colorizer-bg-color {
+  background: #ebe117;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(235, 225, 23);
+}
+.mad-colorizer-bg-color, .mad-colorizer-bg-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -86.5px;
+  right: -86.5px;
+  z-index: 0;
+}
+
+
+
+.mad-section {
+  position: relative;
+  overflow: hidden;
+  
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+
+.align-center {
+  display: flex;
+  justify-content: center; /* Centers the button horizontally */
+  align-items: center;     /* Centers the button vertically if needed */
+  text-align: center;      /* Ensures text alignment is centered */
+}

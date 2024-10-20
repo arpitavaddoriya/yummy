@@ -1,0 +1,161 @@
+/* Menu.css */
+
+.mad-content.no-pd {
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Align items to the start */
+  gap: 30px; /* Consistent gap between images */
+  row-gap: 30px;
+    column-gap: 30px;
+  max-width: 100%; /* Allow full-width container */
+  margin: 0 auto;
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+  white-space: nowrap; /* Ensure no wrapping */
+  flex-direction: column;
+  
+}
+
+
+.mad-menu-box.with-slide-top {
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.mad-col {
+  flex: 0 0 auto; /* Prevent flex items from shrinking or growing */
+  max-width: 500px; /* Adjust based on the image size */
+  margin-bottom: 0; /* Remove bottom margin to keep everything aligned */
+}
+
+.mad-menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 70px;
+  margin: 20px 0px;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-right: 20px; /* Add consistent space between items */
+}
+
+.mad-menu-item:last-child {
+  margin-right: 0; /* Remove right margin on the last item */
+}
+
+.mad-menu-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.mad-menu-box:not(.mad-tabs-nav) .mad-menu-item:hover {
+  background: #ebe117;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(235, 225, 23);
+}
+
+.mad-menu-icon {
+  width: 100px; /* Increased width */
+  height: 100px; /* Increased height */
+  margin-bottom: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.mad-menu-icon img {
+  width: 7.5vw;
+  min-width: 80px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+
+
+
+
+.mad-menu-icon .svg [class*="cls-"] {
+  transition: all 0.5s ease;
+}
+
+.cls-2 {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+}
+
+:not(svg) {
+  transform-origin: 0px 0px;
+}
+
+h6 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #232223;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+}
+
+h6 {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    gap: 10px; /* Reduce gap on smaller screens */
+  }
+
+  .mad-menu-item {
+    padding: 10px;
+    margin-right: 10px; /* Consistent spacing on smaller screens */
+  }
+
+  .mad-menu-icon {
+    width: 70px; /* Slightly smaller image size for tablets */
+    height: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    gap: 5px; /* Further reduce gap on very small screens */
+  }
+
+  .mad-menu-item {
+    padding: 5px;
+    margin-right: 5px; /* Consistent spacing on very small screens */
+  }
+
+  .mad-menu-icon {
+    width: 60px; /* Further reduced image size for mobile */
+    height: 60px;
+  }
+}

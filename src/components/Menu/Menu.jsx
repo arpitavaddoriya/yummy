@@ -61,11 +61,7 @@ const Menu = () => {
         <div className="mad-col">
           <a href="#" className="mad-menu-item">
             <i className="mad-menu-icon">
-              <img
-                className="svg"
-                src="src/assets/french_fries.svg"
-                alt="Sides"
-              />
+              <img className="svg" src="/french_fries.svg" alt="Sides" />
             </i>
             <h6 className="mad-menu-title">Sides</h6>
           </a>
@@ -73,11 +69,7 @@ const Menu = () => {
         <div className="mad-col">
           <a href="#" className="mad-menu-item">
             <i className="mad-menu-icon">
-              <img
-                className="svg"
-                src="src/assets/dessert.svg"
-                alt="Desserts"
-              />
+              <img className="svg" src="/dessert.svg" alt="Desserts" />
             </i>
             <h6 className="mad-menu-title">Desserts</h6>
           </a>
@@ -85,7 +77,7 @@ const Menu = () => {
         <div className="mad-col">
           <a href="#" className="mad-menu-item">
             <i className="mad-menu-icon">
-              <img className="svg" src="src/assets/drink.svg" alt="Drinks" />
+              <img className="svg" src="/drink.svg" alt="Drinks" />
             </i>
             <h6 className="mad-menu-title">Drinks</h6>
           </a>

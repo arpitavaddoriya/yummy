@@ -21,7 +21,7 @@ const Section = () => {
                 <i className="mad-icon-box-icon">
                   <img
                     className="svg"
-                    src="src/assets/qualityicon.svg"
+                    src="/qualityicon.svg"
                     alt="Premium Quality"
                   />
                 </i>
@@ -40,7 +40,7 @@ const Section = () => {
                 <i className="mad-icon-box-icon">
                   <img
                     className="svg"
-                    src="src/assets/freshicon.svg"
+                    src="/freshicon.svg"
                     alt="Always Fresh"
                   />
                 </i>
@@ -60,7 +60,7 @@ const Section = () => {
                 <i className="mad-icon-box-icon">
                   <img
                     className="svg"
-                    src="src/assets/dishicon.svg"
+                    src="/dishicon.svg"
                     alt="Variety of Dishes"
                   />
                 </i>
@@ -80,7 +80,7 @@ const Section = () => {
                 <i className="mad-icon-box-icon">
                   <img
                     className="svg"
-                    src="src/assets/delievry1.svg"
+                    src="/delievry1.svg"
                     alt="Fastest Delivery"
                   />
                 </i>
@@ -99,7 +99,7 @@ const Section = () => {
         </div>
         <div className="col-lg-6">
           <div className="mad-img">
-            <img src="src/assets/688x944_img1.jpg" alt="Delicious Food" />
+            <img src="/688x944_img1.jpg" alt="Delicious Food" />
           </div>
         </div>
       </div>

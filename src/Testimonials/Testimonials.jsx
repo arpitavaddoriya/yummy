@@ -24,10 +24,7 @@ const Testimonials = () => {
               </div>
               <div className="mad-author">
                 <div className="mad-author-img">
-                  <img
-                    src="src/assets/96x96_photo1.jpg"
-                    alt="Rebecca Johnson"
-                  />
+                  <img src="/96x96_photo1.jpg" alt="Rebecca Johnson" />
                 </div>
                 <div className="mad-author-info">
                   <cite>Rebecca Johnson, CA, USA</cite>
@@ -52,7 +49,7 @@ const Testimonials = () => {
               </div>
               <div className="mad-author">
                 <div className="mad-author-img">
-                  <img src="src/assets/96x96_photo2.jpg" alt="Alan Smith" />
+                  <img src="/96x96_photo2.jpg" alt="Alan Smith" />
                 </div>
                 <div className="mad-author-info">
                   <cite>Alan Smith, NY, USA</cite>
@@ -76,7 +73,7 @@ const Testimonials = () => {
               </div>
               <div className="mad-author">
                 <div className="mad-author-img">
-                  <img src="src/assets/96x96_photo3.jpg" alt="Bradley Grosh" />
+                  <img src="/96x96_photo3.jpg" alt="Bradley Grosh" />
                 </div>
                 <div className="mad-author-info">
                   <cite>Bradley Grosh, FL, USA</cite>
@@ -101,7 +98,7 @@ const Testimonials = () => {
               </div>
               <div className="mad-author">
                 <div className="mad-author-img">
-                  <img src="src/assets/96x96_photo4.jpg" alt="Ivana Wong" />
+                  <img src="/96x96_photo4.jpg" alt="Ivana Wong" />
                 </div>
                 <div className="mad-author-info">
                   <cite>Ivana Wong, TX, USA</cite>

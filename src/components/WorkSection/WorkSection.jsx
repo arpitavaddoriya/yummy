@@ -14,7 +14,7 @@ const WorkSection = () => {
         <div class="mad-col">
           <article class="mad-icon-box">
             <i class="mad-icon-box-icon ">
-              <img class="svg" src="src/assets/cartIcon.svg" alt="" />
+              <img class="svg" src="/cartIcon.svg" alt="" />
             </i>
             <div class="mad-icon-box-content">
               <h5 class="mad-icon-box-title">1. Select Your Food</h5>
@@ -25,7 +25,7 @@ const WorkSection = () => {
         <div class="mad-col">
           <article class="mad-icon-box">
             <i class="mad-icon-box-icon">
-              <img class="svg" src="src/assets/walletIcon.svg" alt="" />
+              <img class="svg" src="/walletIcon.svg" alt="" />
             </i>
             <div class="mad-icon-box-content">
               <h5 class="mad-icon-box-title">2. Pay With Card or Cash</h5>
@@ -36,7 +36,7 @@ const WorkSection = () => {
         <div class="mad-col">
           <article class="mad-icon-box">
             <i class="mad-icon-box-icon">
-              <img class="svg" src="src/assets/delievryIcon.svg" alt="" />
+              <img class="svg" src="/delievryIcon.svg" alt="" />
             </i>
             <div class="mad-icon-box-content">
               <h5 class="mad-icon-box-title">3. Pickup or Delivery</h5>

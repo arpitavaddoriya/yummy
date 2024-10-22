@@ -27,7 +27,8 @@ const Tab = () => {
         <div class="mad-col">
           <div
             class="mad-half-section-item"
-            data-bg-image-src="/944x648_bg2.jpg"
+            data-bg-image-src="
+            /944x648_bg2.jpg"
             style={{ backgroundImage: `url('/944x648_bg2.jpg')` }}
           >
             <div class="mad-half-content">

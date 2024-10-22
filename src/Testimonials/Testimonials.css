@@ -79,6 +79,43 @@ blockquote:not(.mad-blockquote--unstyled) cite, .mad-author cite {
   display: block;
 }
 
+h2 {
+  font-size: 3.75rem;
+  line-height: 4.5rem;
+  letter-spacing: -2px;
+  
+}
+
+h1:not(:last-child), h2:not(:last-child), h3:not(:last-child), h4:not(:last-child), h5:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #232223;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  
+}
+
+
+.btn-set {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-set a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.btn-set a:hover {
+  transform: scale(1.05);
+}
+
+.btn-set img {
+  width: 300px;
+  height: auto;
+}
 
 /* Flexbox layout for responsiveness */
 @media (max-width: 1024px) {

@@ -117,6 +117,18 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
 }
 
+.mad-colorizer-bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+
+
+
+
 /* Flexbox layout for responsiveness */
 @media (max-width: 1024px) {
   .mad-grid-item {

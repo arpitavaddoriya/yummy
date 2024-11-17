@@ -142,6 +142,92 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
+
+      <div className="py-20 flexvflex-col items-center justify-center">
+        <h2 className="text-center">Latest News</h2>
+        <div className="mad-entities item-col-3 type-3">
+          <div className="mad-col">
+            <article className="mad-entity">
+              <div className="mad-entity-media">
+                <img src="/448x288_img1.jpg" alt="News 1" />
+              </div>
+              <div className="mad-entity-body">
+                <div className="mad-entity-tags">
+                  <span>September 28, 2021</span>
+                  <span className="mad-in">News</span>
+                </div>
+                <h5 className="mad-entity-title">
+                  <a href="#" className="mad-link">
+                    Sed in Lacus ut Enim
+                  </a>
+                </h5>
+                <p>
+                  Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut
+                  tellus dolor, dapibus eget, elementum vel, cursus eleifend,
+                  elit.
+                </p>
+                <a href="#" className="mad-read-more small-size">
+                  Read More
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <div className="mad-col">
+            <article className="mad-entity">
+              <div className="mad-entity-media">
+                <img src="/448x288_img2.jpg" alt="News 2" />
+              </div>
+              <div className="mad-entity-body">
+                <div className="mad-entity-tags">
+                  <span>September 21, 2021</span>
+                  <a href="#">Events</a>
+                </div>
+                <h5 className="mad-entity-title">
+                  <a href="#" className="mad-link">
+                    Aliquam Erat Volutpat
+                  </a>
+                </h5>
+                <p>
+                  Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac
+                  turpis. Integer rutrum ante eu lacus. Vestibulum libero nisl,
+                  porta vel, scelerisque.
+                </p>
+                <a href="#" className="mad-read-more small-size">
+                  Read More
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <div className="mad-col">
+            <article className="mad-entity">
+              <div className="mad-entity-media">
+                <img src="/448x288_img3.jpg" alt="News 3" />
+              </div>
+              <div className="mad-entity-body">
+                <div className="mad-entity-tags">
+                  <span>September 15, 2021</span>
+                  <a href="#">Offers</a>
+                </div>
+                <h5 className="mad-entity-title">
+                  <a href="#" className="mad-link">
+                    Donec in Velit Vel Ipsum
+                  </a>
+                </h5>
+                <p>
+                  Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi.
+                  Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci
+                  luctus.
+                </p>
+                <a href="#" className="mad-read-more small-size">
+                  Read More
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

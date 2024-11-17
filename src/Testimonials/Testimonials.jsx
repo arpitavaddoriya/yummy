@@ -143,88 +143,125 @@ const Testimonials = () => {
         </div>
       </div>
 
-      <div className="py-20 flexvflex-col items-center justify-center">
-        <h2 className="text-center">Latest News</h2>
-        <div className="mad-entities item-col-3 type-3">
-          <div className="mad-col">
-            <article className="mad-entity">
-              <div className="mad-entity-media">
-                <img src="/448x288_img1.jpg" alt="News 1" />
-              </div>
-              <div className="mad-entity-body">
-                <div className="mad-entity-tags">
-                  <span>September 28, 2021</span>
-                  <span className="mad-in">News</span>
+      <div class="mad-section mad-section--stretched mad-colorizer--scheme-color-5">
+        <div className="flexvflex-col items-center justify-center">
+          <h2 className="text-center">Latest News</h2>
+          <div className="mad-entities item-col-3 type-3">
+            <div className="mad-col">
+              <article className="mad-entity">
+                <div className="mad-entity-media">
+                  <img src="/448x288_img1.jpg" alt="News 1" />
                 </div>
-                <h5 className="mad-entity-title">
-                  <a href="#" className="mad-link">
-                    Sed in Lacus ut Enim
+                <div className="mad-entity-body">
+                  <div className="mad-entity-tags">
+                    <span>September 28, 2021</span>
+                    <span className="mad-in">News</span>
+                  </div>
+                  <h5 className="mad-entity-title">
+                    <a href="#" className="mad-link">
+                      Sed in Lacus ut Enim
+                    </a>
+                  </h5>
+                  <p>
+                    Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut
+                    tellus dolor, dapibus eget, elementum vel, cursus eleifend,
+                    elit.
+                  </p>
+                  <a href="#" className="mad-read-more small-size">
+                    Read More
                   </a>
-                </h5>
-                <p>
-                  Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut
-                  tellus dolor, dapibus eget, elementum vel, cursus eleifend,
-                  elit.
-                </p>
-                <a href="#" className="mad-read-more small-size">
-                  Read More
-                </a>
-              </div>
-            </article>
-          </div>
+                </div>
+              </article>
+            </div>
 
-          <div className="mad-col">
-            <article className="mad-entity">
-              <div className="mad-entity-media">
-                <img src="/448x288_img2.jpg" alt="News 2" />
-              </div>
-              <div className="mad-entity-body">
-                <div className="mad-entity-tags">
-                  <span>September 21, 2021</span>
-                  <a href="#">Events</a>
+            <div className="mad-col">
+              <article className="mad-entity">
+                <div className="mad-entity-media">
+                  <img src="/448x288_img2.jpg" alt="News 2" />
                 </div>
-                <h5 className="mad-entity-title">
-                  <a href="#" className="mad-link">
-                    Aliquam Erat Volutpat
+                <div className="mad-entity-body">
+                  <div className="mad-entity-tags">
+                    <span>September 21, 2021</span>
+                    <a href="#">Events</a>
+                  </div>
+                  <h5 className="mad-entity-title">
+                    <a href="#" className="mad-link">
+                      Aliquam Erat Volutpat
+                    </a>
+                  </h5>
+                  <p>
+                    Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac
+                    turpis. Integer rutrum ante eu lacus. Vestibulum libero
+                    nisl, porta vel, scelerisque.
+                  </p>
+                  <a href="#" className="mad-read-more small-size">
+                    Read More
                   </a>
-                </h5>
-                <p>
-                  Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac
-                  turpis. Integer rutrum ante eu lacus. Vestibulum libero nisl,
-                  porta vel, scelerisque.
-                </p>
-                <a href="#" className="mad-read-more small-size">
-                  Read More
-                </a>
-              </div>
-            </article>
-          </div>
+                </div>
+              </article>
+            </div>
 
-          <div className="mad-col">
-            <article className="mad-entity">
-              <div className="mad-entity-media">
-                <img src="/448x288_img3.jpg" alt="News 3" />
-              </div>
-              <div className="mad-entity-body">
-                <div className="mad-entity-tags">
-                  <span>September 15, 2021</span>
-                  <a href="#">Offers</a>
+            <div className="mad-col">
+              <article className="mad-entity">
+                <div className="mad-entity-media">
+                  <img src="/448x288_img3.jpg" alt="News 3" />
                 </div>
-                <h5 className="mad-entity-title">
-                  <a href="#" className="mad-link">
-                    Donec in Velit Vel Ipsum
+                <div className="mad-entity-body">
+                  <div className="mad-entity-tags">
+                    <span>September 15, 2021</span>
+                    <a href="#">Offers</a>
+                  </div>
+                  <h5 className="mad-entity-title">
+                    <a href="#" className="mad-link">
+                      Donec in Velit Vel Ipsum
+                    </a>
+                  </h5>
+                  <p>
+                    Vivamus eget nibh. Etiam cursus leo vel metus. Nulla
+                    facilisi. Aenean nec eros. Vestibulum ante ipsum primis in
+                    faucibus orci luctus.
+                  </p>
+                  <a href="#" className="mad-read-more small-size">
+                    Read More
                   </a>
-                </h5>
-                <p>
-                  Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi.
-                  Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci
-                  luctus.
-                </p>
-                <a href="#" className="mad-read-more small-size">
-                  Read More
-                </a>
-              </div>
-            </article>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="mad-section no-pd mad-section--stretched-content-no-px"
+        style={{ marginLeft: "-16px", marginRight: "-16px" }}
+      >
+        <div className="mad-instafeed">
+          <div className="mad-grid item-col-5 no-gutters">
+            <div className="mad-col">
+              <a href="#">
+                <img src="/384x384_img1.jpg" alt="Insta Image 1" />
+              </a>
+            </div>
+            <div className="mad-col">
+              <a href="#">
+                <img src="/384x384_img2.jpg" alt="Insta Image 2" />
+              </a>
+            </div>
+            <div className="mad-col">
+              <a href="#">
+                <img src="/384x384_img3.jpg" alt="Insta Image 3" />
+              </a>
+            </div>
+            <div className="mad-col">
+              <a href="#">
+                <img src="/384x384_img4.jpg" alt="Insta Image 4" />
+              </a>
+            </div>
+            <div className="mad-col">
+              <a href="#">
+                <img src="/384x384_img5.jpg" alt="Insta Image 5" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

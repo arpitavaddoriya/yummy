@@ -140,6 +140,15 @@ h6 {
 
 /*Latest News*/
 
+[class*="mad-colorizer--scheme-"] {
+  position: relative;
+}
+
+.mad-section {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
 h2.mad-page-title:not(:last-child),
 .mad-title-wrap:not(:last-child) {
   margin-bottom: 2.5rem;
@@ -271,6 +280,54 @@ h6 {
   background-color: #eb0029;
   width: 13px;
   height: 11px;
+}
+
+.mad-instafeed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.item-col-5 > * {
+  width: 20%;
+}
+
+.mad-instafeed
+  .mad-grid:not(.mad-grid--no-gutters):not(.owl-carousel)
+  .mad-col
+  a:before {
+  content: "\f16d";
+  font-family: Font Awesome\5 Brands;
+  font-size: 50px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(35, 34, 35, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+
+element.style {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+.mad-content.no-pd,
+.mad-section.no-pd {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* Responsive */

@@ -122,7 +122,8 @@ const Testimonials = () => {
         <div class="row">
           <div class="col-lg-5 col-sm-10">
             <h2>
-              Order and Pay <br /> in a Few Minutes
+              Order and Pay <br />
+              in a Few Minutes
             </h2>
             <p class="content-element-6">
               Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at,

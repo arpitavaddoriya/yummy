@@ -1,5 +1,3 @@
-
-
 .mad-grid {
   display: flex;
   justify-content: center;
@@ -7,8 +5,6 @@
   flex-wrap: wrap;
   gap: 30px;
 }
-
-
 
 /* Each Testimonial Item */
 .mad-grid-item {
@@ -18,12 +14,9 @@
   border-radius: 10px;
   background-color: #fff;
   padding: 20px;
-  
+
   transition: transform 0.3s ease;
 }
-
-
-
 
 .mad-grid-item:hover {
   transform: translateY(-10px);
@@ -31,35 +24,30 @@
 
 /* Testimonial Text */
 
-
 /* Author Image */
 .mad-author-img img {
   width: 96px;
   height: 96px;
   border-radius: 50%;
-  
+
   margin: 0 auto 10px auto; /* Centers the image horizontally */
   display: block; /* Necessary for margin auto to work */
   text-align: center; /* Ensures the image is centered */
-  
-
 }
 
 blockquote:not(.mad-blockquote--unstyled) {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 1.5rem;
-  
+
   font-style: italic;
-  
+
   letter-spacing: -0.4px;
   color: #eb0029;
 }
 
 .mad-testimonials:not(.type-2) .mad-testimonial {
   text-align: center;
-  
 }
-
 
 p {
   display: block;
@@ -70,8 +58,8 @@ p {
   unicode-bidi: isolate;
 }
 
-
-blockquote:not(.mad-blockquote--unstyled) cite, .mad-author cite {
+blockquote:not(.mad-blockquote--unstyled) cite,
+.mad-author cite {
   font-size: 1.25rem;
   font-style: normal;
   line-height: 1.5rem;
@@ -83,20 +71,26 @@ h2 {
   font-size: 3.75rem;
   line-height: 4.5rem;
   letter-spacing: -2px;
-  
 }
 
-h1:not(:last-child), h2:not(:last-child), h3:not(:last-child), h4:not(:last-child), h5:not(:last-child) {
+h1:not(:last-child),
+h2:not(:last-child),
+h3:not(:last-child),
+h4:not(:last-child),
+h5:not(:last-child) {
   margin-bottom: 2rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #232223;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
-  
 }
-
 
 .btn-set {
   display: flex;
@@ -125,10 +119,24 @@ h1, h2, h3, h4, h5, h6 {
   background-position-y: center;
 }
 
+.content-element-6:not(:last-child) {
+  margin-bottom: 3rem;
+}
 
+.col-lg-5 {
+  -ms-flex: 0 0 41.66667%;
+  flex: 0 0 41.66667%;
+  max-width: 41.66667%;
+}
 
+.row:not(.col-no-space) > [class*="col"] {
+  padding-bottom: 3rem;
+}
 
-
+.row > [class*="col-"] {
+  padding-left: 16px;
+  padding-right: 16px;
+}
 /* Flexbox layout for responsiveness */
 @media (max-width: 1024px) {
   .mad-grid-item {
@@ -143,4 +151,3 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 100%;
   }
 }
-

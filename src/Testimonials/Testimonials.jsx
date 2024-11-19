@@ -265,6 +265,29 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
+
+      <div class="mad-section very-small-size mad-section--stretched mad-colorizer--scheme-color-2">
+        <div class="mad-colorizer-bg-color"></div>
+        <div class="row align-items-center">
+          <div class="col-xl-6 ">
+            <h4 class="mad-page-title">
+              Receive Great Offers and Event Updates
+            </h4>
+          </div>
+          <div class="col-xl-6">
+            <form class="mad-newsletter-form one-line">
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter Your Email Address"
+              />
+              <button type="submit" class="btn btn-style-3 btn-small">
+                <span>Sign Up</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

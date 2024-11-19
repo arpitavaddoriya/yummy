@@ -8,7 +8,7 @@
 /* Each Testimonial Item */
 .mad-grid-item {
   flex: 1 1 20%;
-  max-width: 20%;
+
   text-align: center;
   border-radius: 10px;
   background-color: #fff;
@@ -412,9 +412,31 @@ textarea,
   box-shadow: 2px 6px 0px 0px rgba(184, 0, 31, 0.16);
 }
 
+fieldset,
+legend,
+label,
+select,
+input,
+textarea,
+form,
+button,
+optgroup {
+  -webkit-appearance: none !important;
+}
+input,
+button {
+  outline: none;
+  background: transparent;
+}
+input,
+textarea {
+  font-family: inherit;
+
+  box-sizing: border-box !important;
+}
+
 .mad-section {
   position: relative; /* Important to position background absolutely */
-  padding: 20px;
   overflow: hidden; /* Ensure background doesn't overflow */
   background-color: transparent; /* Clear any conflicting background */
 }

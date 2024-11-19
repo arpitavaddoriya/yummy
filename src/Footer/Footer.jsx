@@ -15,7 +15,7 @@ import {
   faClock,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Footer = () => {
+const footer = () => {
   return (
     <footer id="mad-footer" className="mad-footer">
       {/* Footer Main Section */}
@@ -149,4 +149,4 @@ const getFooterLinks = (section) => {
   return links[section] || [];
 };
 
-export default Footer;
+export default footer;

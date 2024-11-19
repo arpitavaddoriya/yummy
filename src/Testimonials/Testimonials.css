@@ -381,7 +381,7 @@ row {
 }
 
 form.one-line.mad-newsletter-form input {
-  padding-right: 30rem;
+  padding-right: 6rem;
   text-overflow: ellipsis;
 }
 input[type="text"],

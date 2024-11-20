@@ -20,6 +20,7 @@ function App() {
       <WorkSection />
       <Tab />
       <Testimonials />
+      <Footer />
     </div>
   );
 }

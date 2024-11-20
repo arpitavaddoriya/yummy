@@ -5,7 +5,6 @@ import PopupPage from "./components/PopupPage/PopupPage";
 import RevolutionSlider from "./components/RevolutionSlider/RevolutionSlider";
 import Section from "./components/section/Section";
 import WorkSection from "./components/WorkSection/WorkSection";
-import Footer from "./Footer/Footer";
 
 import Tab from "./Tab/Tab";
 import Testimonials from "./Testimonials/Testimonials";
@@ -21,7 +20,6 @@ function App() {
       <WorkSection />
       <Tab />
       <Testimonials />
-      <Footer />
     </div>
   );
 }

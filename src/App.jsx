@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 import Menu from "./components/Menu/Menu";
 import Navbar from "./components/Navbar/Navbar";
 import PopupPage from "./components/PopupPage/PopupPage";
@@ -20,6 +21,7 @@ function App() {
       <WorkSection />
       <Tab />
       <Testimonials />
+      <Footer />
     </div>
   );
 }

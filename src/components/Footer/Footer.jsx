@@ -1,10 +1,11 @@
 import React from "react";
+import "./Footer.css";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
   faTwitter,
   faInstagram,
-  faTripadvisor,
   faYoutube,
   faPinterestP,
 } from "@fortawesome/free-brands-svg-icons";
@@ -19,12 +20,10 @@ import {
 const Footer = () => {
   return (
     <footer id="mad-footer" className="mad-footer">
-      {/*================ Footer row ================*/}
       <div className="mad-footer-main">
         <div className="container">
           <div className="row vr-size-1">
             <div className="col-lg-6">
-              {/*================ Widget ================*/}
               <section className="mad-widget">
                 <div className="content-element-5">
                   <a href="#" className="mad-logo">
@@ -57,10 +56,8 @@ const Footer = () => {
                   </div>
                 </div>
               </section>
-              {/*================ End of Widget ================*/}
             </div>
             <div className="col-lg-2">
-              {/*================ Widget ================*/}
               <section className="mad-widget">
                 <h5 className="mad-widget-title">Menu</h5>
                 <div className="mad-vr-list">
@@ -98,10 +95,8 @@ const Footer = () => {
                   </ul>
                 </div>
               </section>
-              {/*================ End of Widget ================*/}
             </div>
             <div className="col-lg-2">
-              {/*================ Widget ================*/}
               <section className="mad-widget">
                 <h5 className="mad-widget-title">Company</h5>
                 <div className="mad-vr-list">
@@ -139,10 +134,8 @@ const Footer = () => {
                   </ul>
                 </div>
               </section>
-              {/*================ End of Widget ================*/}
             </div>
             <div className="col-lg-2">
-              {/*================ Widget ================*/}
               <section className="mad-widget">
                 <h5 className="mad-widget-title">Support</h5>
                 <div className="mad-vr-list">
@@ -180,12 +173,11 @@ const Footer = () => {
                   </ul>
                 </div>
               </section>
-              {/*================ End of Widget ================*/}
             </div>
           </div>
         </div>
       </div>
-      {/*================ End of Footer row ================*/}
+
       <div className="mad-footer-bottom">
         <div className="container">
           <p className="copyrights">
@@ -208,11 +200,7 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </li>
-              <li>
-                <a href="#">
-                  <FontAwesomeIcon icon={faTripadvisor} />
-                </a>
-              </li>
+
               <li>
                 <a href="#">
                   <FontAwesomeIcon icon={faYoutube} />

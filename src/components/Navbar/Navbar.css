@@ -3,7 +3,6 @@
 @tailwind utilities;
 /* Navbar.css */
 
-
 /* Header styling */
 
 #mad-header {
@@ -12,7 +11,6 @@
 }
 
 .mad-pre-header {
-  
   padding: 0.75rem 3.875rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -26,7 +24,7 @@
   background-origin: initial;
   background-clip: initial;
   background-color: rgb(235, 0, 41);
-   display: flex;
+  display: flex;
   justify-content: space-between;
   font-size: 15px;
   line-height: 1rem;
@@ -34,27 +32,32 @@
   border-bottom: 1px solid #f26375;
 }
 
-q, kbd, strong, em, tt, var, span, del, big, small {
+q,
+kbd,
+strong,
+em,
+tt,
+var,
+span,
+del,
+big,
+small {
   vertical-align: baseline;
 }
-
-
 
 .mad-header-items {
   display: flex;
   align-items: center;
-  justify-content:right;
+  justify-content: right;
   flex-wrap: wrap;
 }
 
-
 .mad-our-info {
   display: flex;
-  gap: 20px;
+
   color: #fff; /* Subtle color for info text */
- 
 }
- .mad-info  {
+.mad-info {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -65,7 +68,6 @@ q, kbd, strong, em, tt, var, span, del, big, small {
   color: #fff; /* Modern blue link color */
   text-decoration: none;
   margin: 0 10px;
-  
 }
 
 .mad-quick-links a:hover {
@@ -77,16 +79,12 @@ q, kbd, strong, em, tt, var, span, del, big, small {
 }
 
 .mad-header-section--sticky-xl {
-  background-color:#eb0029;
-
+  background-color: #eb0029;
 }
-
 
 .mad-header-items {
   margin-top: -1rem;
-  
 }
-
 
 img {
   vertical-align: top;
@@ -102,11 +100,8 @@ img {
 .mad-navigation {
   list-style: none; /* Remove default list styling */
   display: flex;
- justify-content: right;
- 
+  justify-content: right;
 }
-
-
 
 .mad-navigation .menu-item {
   position: relative;
@@ -124,12 +119,10 @@ img {
   transition: color 0.3s;
   border: 1px solid transparent; /* Box appearance */
   border-radius: 5px;
-  
 }
 
 .mad-navigation .menu-item a:hover {
   color: #ebe117; /* Color change on hover */
-  
 }
 
 .mad-navigation .menu-item-has-children > a::after {
@@ -141,15 +134,11 @@ img {
   transition: transform 0.3s;
 }
 
-
-
-
-
 .mad-navigation {
   position: relative;
   list-style: none;
   padding: 15px;
- 
+
   margin: 10px;
 }
 
@@ -166,16 +155,16 @@ img {
   font-weight: 500;
 }
 
-.mad-navigation > li:hover > a, 
+.mad-navigation > li:hover > a,
 .mad-navigation > li.current-menu-item > a {
   color: #ebe117;
 }
 
 .mad-navigation .sub-menu {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   width: 21.75rem;
   padding: 2rem;
-  
+
   position: absolute;
   top: 100%;
   left: 0;
@@ -189,10 +178,7 @@ img {
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
   transform: scale(0.95);
   z-index: 999;
-  
 }
-
-
 
 .mad-navigation .sub-menu li {
   margin-bottom: 0.5rem;
@@ -205,9 +191,9 @@ img {
   font-weight: 600;
   transition: color 0.3s ease;
   border-bottom: 1px solid transparent;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: transparent;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
 }
 
 .mad-navigation > li:hover .sub-menu,
@@ -217,13 +203,9 @@ img {
   transform: scale(1);
 }
 
-
-
 .mad-navigation .sub-menu .menu-item-has-children > a::after {
-  
   margin-left: 10px;
 }
-
 
 /* Header items */
 .mad-header-item {
@@ -234,10 +216,8 @@ img {
 .mad-our-info.type-2 .mad-info {
   display: flex;
   align-items: center;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
-  
-
 
 .mad-our-info.type-2 .mad-info i {
   font-size: 2.5rem;
@@ -248,7 +228,7 @@ img {
 .mad-our-info .mad-info > i {
   min-width: 1rem;
   font-size: 1.125rem;
-  
+
   line-height: inherit;
 }
 
@@ -259,15 +239,13 @@ img {
 }
 
 .mad-our-info.type-2 .mad-info .mad-info-title {
-  font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    line-height: 1.5rem;
-    letter-spacing: 0.1px;
-    color: #ebe117;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  letter-spacing: 0.1px;
+  color: #ebe117;
 }
-
-
 
 .mad-actions .mad-item-link i {
   font-size: 1.375rem;
@@ -275,10 +253,10 @@ img {
 }
 
 .material-icons {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
-  
+
   letter-spacing: normal;
   text-transform: none;
   display: inline-block;
@@ -312,8 +290,6 @@ img {
   text-align: center;
   display: block;
   margin: 0 0.3rem;
-
-
 }
 
 .mad-actions > .mad-item {
@@ -323,9 +299,7 @@ img {
   padding-bottom: 0px;
   padding-left: 750px;
   display: flex;
-  
 }
-
 
 .btn-small {
   font-size: 0.9375rem;
@@ -333,8 +307,8 @@ img {
   padding-bottom: 1rem;
 }
 .btn {
-  font-family: 'Lato', sans-serif;
-   padding: 15px 2rem 18px;
+  font-family: "Lato", sans-serif;
+  padding: 15px 2rem 18px;
   padding-right: 2.5rem;
   padding-left: 2.5rem;
   display: inline-block !important;
@@ -366,9 +340,10 @@ img {
   background-color: rgb(235, 225, 23);
 }
 
-
-.mad-link, a, button {
-  transition: all .5s ease;
+.mad-link,
+a,
+button {
+  transition: all 0.5s ease;
   transition-behavior: normal;
   transition-duration: 0.5s;
   transition-timing-function: ease;
@@ -376,25 +351,11 @@ img {
   transition-property: all;
 }
 
-
-
-
-
-
 [class*="mad-header-section--sticky"] {
   padding: 2.125rem 0.875rem;
   padding-top: 2.125rem;
-   padding-bottom: 2.125rem;
-   
-
-
-  
+  padding-bottom: 2.125rem;
 }
-
-
-
-
-
 
 /* Responsive styles */
 @media (max-width: 768px) {
@@ -402,12 +363,11 @@ img {
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .mad-navigation .menu-item {
     margin: 5px 0;
   }
 
-  
   .mad-navigation .single-dropdown-box {
     width: 100%; /* Full width on small screens */
   }
@@ -415,81 +375,83 @@ img {
 
 @media (max-width: 769px) {
   .mad-header-items {
-      flex-direction: row;
-      padding-bottom: 0;
+    flex-direction: row;
+    padding-bottom: 0;
   }
 }
 @media only screen and (max-width: 1440px) {
   .mad-header-items {
-      margin-top: -1rem;
+    margin-top: -1rem;
   }
 }
 @media only screen and (max-width: 1620px) {
   .mad-header-items {
-      margin-top: -1rem;
+    margin-top: -1rem;
   }
 }
 
 @media only screen and (max-width: 1400px) {
-  .mad-header:not(.style-2) .mad-pre-header .mad-pre-header-wrap, .mad-header:not(.header-3) .mad-pre-header, .mad-header:not(.style-2) [class*="mad-header-section--sticky"], .mad-section--stretched-content {
-      padding-left: 1rem;
-      padding-right: 1rem;
+  .mad-header:not(.style-2) .mad-pre-header .mad-pre-header-wrap,
+  .mad-header:not(.header-3) .mad-pre-header,
+  .mad-header:not(.style-2) [class*="mad-header-section--sticky"],
+  .mad-section--stretched-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
 @media (max-width: 769px) {
-  .mad-pre-header .mad-pre-header-wrap, .mad-header:not(.header-3) .mad-pre-header, .mad-header-section--sticky-xl {
-      padding-left: 1rem;
-      padding-right: 1rem;
+  .mad-pre-header .mad-pre-header-wrap,
+  .mad-header:not(.header-3) .mad-pre-header,
+  .mad-header-section--sticky-xl {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
 @media (max-width: 769px) {
   .mad-header-items {
-      flex-direction: row;
-      padding-bottom: 0;
+    flex-direction: row;
+    padding-bottom: 0;
   }
 }
 @media only screen and (max-width: 1440px) {
   .mad-header-items {
-      margin-top: -1rem;
+    margin-top: -1rem;
   }
 }
 
-
-
-
-
 @media (max-width: 769px) {
-  .mad-navigation:not(.side-menu) > li:hover > a, .mad-navigation:not(.side-menu) > li.current-menu-item > a, .mad-navigation:not(.side-menu) > li.mad-tapped > a {
-      background: #ebe117;
-      background-image: initial;
-      background-position-x: initial;
-      background-position-y: initial;
-      background-size: initial;
-      background-repeat: initial;
-      background-attachment: initial;
-      background-origin: initial;
-      background-clip: initial;
-      background-color: rgb(235, 225, 23);
-      color: #232223 !important;
+  .mad-navigation:not(.side-menu) > li:hover > a,
+  .mad-navigation:not(.side-menu) > li.current-menu-item > a,
+  .mad-navigation:not(.side-menu) > li.mad-tapped > a {
+    background: #ebe117;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(235, 225, 23);
+    color: #232223 !important;
   }
 }
 @media (max-width: 769px) {
   .mad-header .mad-navigation > li > a {
-      line-height: 2rem;
+    line-height: 2rem;
   }
 }
 
-
 @media (max-width: 769px) {
   .mad-header-items {
-      flex-direction: row;
-      padding-bottom: 0;
+    flex-direction: row;
+    padding-bottom: 0;
   }
 }
 @media only screen and (max-width: 1440px) {
   .mad-header-items {
-      margin-top: -1rem;
+    margin-top: -1rem;
   }
 }

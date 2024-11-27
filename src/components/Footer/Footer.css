@@ -4,6 +4,10 @@
   color: #fff;
 }
 
+.content-element-5:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
 img {
   vertical-align: top;
   max-width: 100%;
@@ -84,11 +88,10 @@ h5 {
   padding-right: 16px;
 }
 
-.container,
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  width: 100%;
+  width: 100%x;
 }
 
 .mad-our-info {
@@ -115,6 +118,9 @@ h5 {
 }
 .mad-our-info .mad-info > i {
   line-height: inherit;
+}
+.row.vr-size-1:not(.col-no-space) > [class*="col"] {
+  padding-bottom: 2rem;
 }
 
 .material-icons-outlined {

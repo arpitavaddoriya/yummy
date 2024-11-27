@@ -9,20 +9,17 @@
   justify-content: space-between; /* Align items to the start */
   gap: 30px; /* Consistent gap between images */
   row-gap: 30px;
-    column-gap: 30px;
+  column-gap: 30px;
   max-width: 100%; /* Allow full-width container */
   margin: 0 auto;
   overflow-x: auto; /* Enable horizontal scrolling if needed */
   white-space: nowrap; /* Ensure no wrapping */
   flex-direction: column;
-  
 }
-
 
 .mad-menu-box.with-slide-top {
   display: flex;
   justify-content: flex-start;
-  
 }
 
 .mad-col {
@@ -77,7 +74,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
- 
+
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
@@ -87,10 +84,6 @@
   object-fit: cover;
   transition: transform 0.3s ease;
 }
-
-
-
-
 
 .mad-menu-icon .svg [class*="cls-"] {
   transition: all 0.5s ease;
@@ -111,9 +104,14 @@ h6 {
   line-height: 2rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #232223;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
   letter-spacing: -0.3px;
 }
@@ -125,7 +123,6 @@ h6 {
   margin-inline-end: 0px;
   unicode-bidi: isolate;
 }
-
 
 /* Responsive adjustments */
 @media (max-width: 768px) {

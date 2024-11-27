@@ -32,19 +32,6 @@
   border-bottom: 1px solid #f26375;
 }
 
-q,
-kbd,
-strong,
-em,
-tt,
-var,
-span,
-del,
-big,
-small {
-  vertical-align: baseline;
-}
-
 .mad-header-items {
   display: flex;
   align-items: center;

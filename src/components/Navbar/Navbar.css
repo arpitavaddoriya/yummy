@@ -190,6 +190,15 @@ img {
   transform: scale(1);
 }
 
+.mad-navigation .sub-menu:before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  height: 2rem;
+}
+
 .mad-navigation .sub-menu .menu-item-has-children > a::after {
   margin-left: 10px;
 }

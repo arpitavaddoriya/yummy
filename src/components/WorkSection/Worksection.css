@@ -1,4 +1,3 @@
-
 .mad-title-wrap {
   text-align: center;
   position: relative;
@@ -11,7 +10,7 @@ h2.mad-page-title {
   letter-spacing: -2px;
   margin-bottom: 2rem;
   color: #232223;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
 }
 
@@ -25,22 +24,19 @@ h2.mad-page-title {
   flex-direction: column; /* Stacks icon, title, and description vertically */
   align-items: center; /* Centers content horizontally */
   justify-content: flex-start; /* Ensures content aligns from the top */
-  
 }
 
-
 .mad-icon-box-icon {
-  width: 100px;  /* Set your desired icon width */
+  width: 100px; /* Set your desired icon width */
   height: 100px; /* Set your desired icon height */
   margin-bottom: 15px; /* Adds space between the icon and the title */
 }
 
 .mad-icon-box-icon img {
-  width: 100%;  /* Ensures the image fits inside the container */
+  width: 100%; /* Ensures the image fits inside the container */
   height: 100%; /* Ensures the image fits inside the container */
   object-fit: contain; /* Prevents image distortion */
 }
-
 
 .mad-icon-box-content p {
   font-size: 1.2rem;
@@ -85,11 +81,15 @@ h5 {
   line-height: 2.5rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #232223;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
-
 }
 
 p {
@@ -105,21 +105,13 @@ p {
   unicode-bidi: isolate;
 }
 
-
-
-
-
-
-
 .mad-title-wrap p {
   font-size: 1.25rem;
   color: #333;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.8;
-  
 }
-
 
 .mad-colorizer--scheme-color-2 > .mad-colorizer-bg-color {
   background: #ebe117;
@@ -133,7 +125,8 @@ p {
   background-clip: initial;
   background-color: rgb(235, 225, 23);
 }
-.mad-colorizer-bg-color, .mad-colorizer-bg-image {
+.mad-colorizer-bg-color,
+.mad-colorizer-bg-image {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -142,20 +135,66 @@ p {
   z-index: 0;
 }
 
-
-
 .mad-section {
   position: relative;
   overflow: hidden;
-  
+
   padding-top: 9rem;
   padding-bottom: 9rem;
 }
 
-
 .align-center {
   display: flex;
   justify-content: center; /* Centers the button horizontally */
-  align-items: center;     /* Centers the button vertically if needed */
-  text-align: center;      /* Ensures text alignment is centered */
+  align-items: center; /* Centers the button vertically if needed */
+  text-align: center; /* Ensures text alignment is centered */
+}
+
+/*Tab*/
+/* General Section Styling */
+.mad-section {
+  padding: 40px 0;
+  background-color: #f9f9f9;
+}
+
+.mad-page-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.mad-tabs:not(.mad-tabs--unstyled) .mad-tabs-nav > span:not(:last-child) {
+  margin-right: 2.5rem;
+}
+
+.mad-tabs:not(.mad-tabs--unstyled) .mad-tabs-nav {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+  display: flex;
+  white-space: nowrap;
+
+  position: relative;
+}
+.justify-content-center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.mad-tabs-container .mad-tab {
+  font-size: 1.125rem;
+  padding-top: 2rem;
+  line-height: 2rem;
+}
+
+.mad-tabs:not(.mad-tabs--unstyled) {
+  overflow: hidden;
+}
+.mad-tabs:not(:last-child) {
+  margin-bottom: 3.5rem;
 }

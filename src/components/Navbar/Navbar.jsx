@@ -251,6 +251,7 @@ const Navbar = () => {
                 </li>
                 <li className="menu-item menu-item-has-children">
                   <a href="#">SHOP</a>
+
                   <ul className="sub-menu">
                     <li className="menu-item">
                       <a href="shop_front_sidebar.html">

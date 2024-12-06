@@ -147,6 +147,14 @@ img {
   color: #ebe117;
 }
 
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
 .mad-navigation .sub-menu {
   font-family: "Josefin Sans", sans-serif;
   width: 21.75rem;

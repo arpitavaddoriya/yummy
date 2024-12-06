@@ -145,6 +145,176 @@ const WorkSection = () => {
           </div>
         </div>
       </div>
+
+      <div
+        id="tab-1"
+        tabIndex="0"
+        role="tabpanel"
+        aria-labelledby="tab-1-link"
+        className="mad-tab"
+      >
+        <div className="mad-products owl-carousel mad-grid mad-grid--cols-4">
+          {/* owl item */}
+          <div className="mad-grid-item">
+            {/* Product */}
+            <div className="mad-product">
+              <figure className="mad-product-image">
+                <div className="mad-label">
+                  <img className="svg" src="/carrot.svg" alt="" />
+                </div>
+                <a href="#">
+                  <img src="/264x264_img1.jpg" alt="" />
+                </a>
+              </figure>
+              {/* product-desc */}
+              <div className="mad-product-description">
+                <h4 className="mad-product-title">
+                  <a href="#" className="mad-link">
+                    Margherita
+                  </a>
+                </h4>
+                <p>
+                  Italian tomato sauce, mozzarella, fresh basil, parmesan
+                  cheese, olive oil
+                </p>
+              </div>
+              {/* /product-desc */}
+              <div className="mad-product-calc">
+                <span className="mad-product-price">9.99</span>
+                <a href="#" className="btn btn-style-3 btn-small">
+                  Select Options
+                </a>
+              </div>
+            </div>
+            {/* End of Product */}
+          </div>
+          {/* / owl item */}
+
+          {/* owl item */}
+          <div className="mad-grid-item">
+            {/* Product */}
+            <div className="mad-product">
+              <figure className="mad-product-image">
+                <a href="#">
+                  <img src="/264x264_img2.jpg" alt="" />
+                </a>
+              </figure>
+              {/* product-desc */}
+              <div className="mad-product-description">
+                <h4 className="mad-product-title">
+                  <a href="#" className="mad-link">
+                    Original Prosciutto
+                  </a>
+                </h4>
+                <p>
+                  Italian tomato sauce, buffalo mozzarella with prosciutto di
+                  parma, fresh basil and parmesan
+                </p>
+              </div>
+              {/* /product-desc */}
+              <div className="mad-product-calc">
+                <span className="mad-product-price">11.99</span>
+                <a href="#" className="btn btn-style-3 btn-small">
+                  Select Options
+                </a>
+              </div>
+            </div>
+            {/* End of Product */}
+          </div>
+          {/* / owl item */}
+
+          {/* owl item */}
+          <div className="mad-grid-item">
+            {/* Product */}
+            <div className="mad-product">
+              <figure className="mad-product-image">
+                <div className="mad-label red">
+                  <img
+                    className="svg"
+                    src="yummi_svg_icons/chili_pepper.svg"
+                    alt=""
+                  />
+                </div>
+                <a href="#">
+                  <img src="/264x264_img3.jpg" alt="" />
+                </a>
+              </figure>
+              {/* product-desc */}
+              <div className="mad-product-description">
+                <h4 className="mad-product-title">
+                  <a href="#" className="mad-link">
+                    Pepperoni
+                  </a>
+                </h4>
+                <p>
+                  Italian tomato sauce, mozzarella, spicy pepperoni, fresh basil
+                  and parmesan
+                </p>
+              </div>
+              {/* /product-desc */}
+              <div className="mad-product-calc">
+                <span className="mad-product-price">17.99</span>
+                <a href="#" className="btn btn-style-3 btn-small">
+                  Select Options
+                </a>
+              </div>
+            </div>
+            {/* End of Product */}
+          </div>
+          {/* / owl item */}
+
+          {/* owl item */}
+          <div className="mad-grid-item">
+            {/* Product */}
+            <div className="mad-product">
+              <figure className="mad-product-image">
+                <a href="#">
+                  <img src="/264x264_img4.jpg" alt="" />
+                </a>
+              </figure>
+              {/* product-desc */}
+              <div className="mad-product-description">
+                <h4 className="mad-product-title">
+                  <a href="#" className="mad-link">
+                    Quattro Formaggi
+                  </a>
+                </h4>
+                <p>
+                  White base pizza, mozzarella, provolone, pecorino, gorgonzola,
+                  cherry tomato, basil and parmesan.
+                </p>
+              </div>
+              {/* /product-desc */}
+              <div className="mad-product-calc">
+                <span className="mad-product-price">14.99</span>
+                <a href="#" className="btn btn-style-3 btn-small">
+                  Select Options
+                </a>
+              </div>
+            </div>
+            {/* End of Product */}
+          </div>
+          {/* / owl item */}
+        </div>
+      </div>
+
+      <div class="owl-dots">
+        <button role="button" class="owl-dot active">
+          <span></span>
+        </button>
+        <button role="button" class="owl-dot">
+          <span></span>
+        </button>
+        <button role="button" class="owl-dot">
+          <span></span>
+        </button>
+      </div>
+
+      <div class="align-center">
+        <a href="#" class="btn btn-style-2 btn-big">
+          View All Menu
+        </a>
+      </div>
     </>
   );
 };

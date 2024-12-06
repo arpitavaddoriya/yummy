@@ -198,3 +198,221 @@ p {
 .mad-tabs:not(:last-child) {
   margin-bottom: 3.5rem;
 }
+
+.mad-tabs:not(.mad-tabs--unstyled):not(.mad-tabs--style-2)
+  .mad-tabs-nav
+  > span.mad-active
+  a {
+  color: #262123;
+}
+.mad-tabs:not(.mad-tabs--unstyled) .mad-tabs-nav a {
+  color: #eb0029;
+  display: block;
+  white-space: nowrap;
+  -webkit-transition: background-color 0.5s cubic-bezier(0.165, 0.84, 0.44, 1),
+    color 0.5s cubic-bezier(0.165, 0.84, 0.44, 1),
+    border-color 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: background-color 0.5s cubic-bezier(0.165, 0.84, 0.44, 1),
+    color 0.5s cubic-bezier(0.165, 0.84, 0.44, 1),
+    border-color 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* General styles for the mad-tab component */
+.mad-tab {
+  padding: 20px;
+}
+
+.mad-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  list-style: none;
+}
+
+.mad-grid-item {
+  position: relative;
+  width: 100%;
+}
+
+.mad-product {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Product Image Styles */
+.mad-product-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.mad-product-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Label for product */
+.mad-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.mad-label.red {
+  background-color: red;
+}
+
+/* Product description */
+.mad-product-description {
+  padding: 15px;
+}
+
+.mad-product-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.mad-product-title a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.mad-product-title a:hover {
+  color: #eb0029;
+}
+
+/* Price and select button */
+.mad-product-calc {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+.mad-product-price {
+  font-size: 25px;
+  color: #333;
+  font-weight: bold;
+}
+
+.mad-label .svg path {
+  stroke: #fff;
+  stroke-width: 1rem;
+  fill: transparent;
+}
+
+.mad-label .svg {
+  height: 18px;
+}
+
+.mad-label {
+  position: absolute;
+  z-index: 2;
+  top: 0.5rem;
+  right: 0.5rem;
+  line-height: 2.2rem;
+  display: block;
+  background: #2f8c1f;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.mad-products:not(.mad-product-small)
+  .mad-product-description:not(:last-child) {
+  margin-bottom: 1.25rem;
+}
+.mad-product-description {
+  flex: 1;
+}
+
+p {
+  line-height: inherit;
+}
+
+/* Style for owl-dots container */
+.owl-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Style for individual owl-dot button */
+.owl-dot {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ccc; /* Default color for inactive dots */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for dots */
+.owl-dot:hover {
+  background-color: whitesmoke; /* Change to red on hover */
+}
+
+/* Active dot style */
+.owl-dot.active {
+  background-color: whitesmoke; /* Dark color for the active dot */
+}
+
+/* Style for the span element inside owl-dot */
+.owl-dot span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* For larger or custom sizes (optional) */
+@media (max-width: 768px) {
+  .owl-dot {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .mad-products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .mad-products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .mad-products {
+    grid-template-columns: 1fr;
+  }
+
+  .mad-product-calc {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mad-product-price {
+    margin-bottom: 10px;
+  }
+}

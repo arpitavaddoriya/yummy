@@ -125,7 +125,10 @@ const Navbar = () => {
                 <li className="menu-item menu-item-has-children mega-menu">
                   <a href="#">ELEMENTS</a>
                   <ul className="sub-menu">
-                    <li className="menu-item menu-item-has-children">
+                    <li
+                      className="menu-item menu-item-
+                    has-children"
+                    >
                       <a href="#" className="sub-title">
                         Elements <span className="no-title">1</span>
                       </a>

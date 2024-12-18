@@ -16,7 +16,8 @@ h2.mad-page-title {
 
 .mad-col {
   flex: 1;
-  text-align: center; /* Center-aligns text and content */
+  text-align: center; /* Center-
+  s text and content */
 }
 
 .mad-icon-box {
@@ -187,6 +188,7 @@ p {
 
 .mad-tabs-container .mad-tab {
   font-size: 1.125rem;
+
   padding-top: 2rem;
   line-height: 2rem;
 }
@@ -426,6 +428,13 @@ p {
 }
 
 /* Style for owl-dots container */
+
+.mad-section {
+  position: relative;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
 .owl-dots {
   display: flex;
   justify-content: center;
@@ -494,7 +503,6 @@ p {
 @media (max-width: 768px) {
   .owl-dot {
     width: 10px;
-
     height: 10px;
   }
 }

@@ -351,7 +351,7 @@ table .mad-product-price:before,
   border-radius: 1.5rem;
   position: relative;
   overflow: hidden;
-  transition: all 0.5s ease;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -478,7 +478,6 @@ p {
   border-radius: 50%;
   background-color: #ccc; /* Default color for inactive dots */
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 /* Hover effect for dots */

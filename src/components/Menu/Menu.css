@@ -47,11 +47,6 @@
   margin-right: 0; /* Remove right margin on the last item */
 }
 
-.mad-menu-item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
 .mad-menu-box:not(.mad-tabs-nav) .mad-menu-item:hover {
   background: #ebe117;
   background-image: initial;
@@ -80,7 +75,7 @@
 
 .mad-menu-icon img {
   width: 7.5vw;
-  min-width: 80px;
+
   object-fit: cover;
   transition: transform 0.3s ease;
 }

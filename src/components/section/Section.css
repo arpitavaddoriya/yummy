@@ -1,5 +1,5 @@
 .mad-section {
-  padding: 30px 10px;
+  padding: 30px 0px;
   background-color: #f9f9f9;
   border-radius: 15px;
 
@@ -81,7 +81,6 @@ h6 {
 
 .mad-col {
   flex: 1 1 calc(50% - 20px);
-
 }
 
 .mad-icon-box {
@@ -90,10 +89,7 @@ h6 {
 
   padding: 60px;
   border-radius: 10px;
-
- 
 }
-
 
 .mad-icon-box-icon {
   width: 50px;
@@ -154,8 +150,6 @@ p {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
-
-
 
 @media (max-width: 991px) {
   .col-lg-6 {

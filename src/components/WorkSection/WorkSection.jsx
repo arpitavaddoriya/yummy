@@ -5,7 +5,7 @@ const WorkSection = () => {
     <>
       <div className="py-20 bg-yellow-400 flexvflex-col items-center justify-center">
         <div class="">
-          <h2 className="text-center">How It Works</h2>
+          <h2 className="text-center"> How It Works</h2>
           <p className="w-1/3 text-center mx-auto ">
             Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at,
             neque. Vivamus eget nibh. Etiam cursus leo vel metus. Nulla
@@ -50,9 +50,8 @@ const WorkSection = () => {
             </article>
           </div>
           <div className="absolute left-1/6 top-1/2">
-            <img class="svg" src="src/assets/nextstep.svg" alt="" />
+            <img class="svg " src="/next_step.svg" alt="" />
           </div>
-          <div className="absolute left-2/3 top-1/2">===</div>
         </div>
         <div class="align-center">
           <a href="#" class="btn btn-style-3 btn-big">

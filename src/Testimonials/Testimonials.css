@@ -321,10 +321,6 @@ h6 {
   transition: all 0.5s ease;
 }
 
-element.style {
-  margin-left: -16px;
-  margin-right: -16px;
-}
 .mad-content.no-pd,
 .mad-section.no-pd {
   padding-top: 0;
@@ -362,10 +358,6 @@ h6 {
   font-weight: bold;
 }
 
-row {
-  margin-right: -16px;
-  margin-left: -16px;
-}
 .row:not(.col-no-space) > [class*="col"] {
   padding-bottom: 3rem;
 }

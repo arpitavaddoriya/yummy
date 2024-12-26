@@ -231,10 +231,7 @@ const Testimonials = () => {
         </div>
       </div>
 
-      <div
-        className="mad-section no-pd mad-section--stretched-content-no-px"
-        style={{ marginLeft: "-16px", marginRight: "-16px" }}
-      >
+      <div className="mad-section no-pd mad-section--stretched-content-no-px">
         <div className="mad-instafeed">
           <div className="mad-grid item-col-5 no-gutters">
             <div className="mad-col">
@@ -268,13 +265,12 @@ const Testimonials = () => {
 
       <div class="mad-section very-small-size mad-section--stretched mad-colorizer--scheme-color-2">
         <div class="mad-colorizer-bg-color"></div>
-        <div class="row align-items-center">
-          <div class="col-xl-6 ">
-            <h4 class="mad-page-title">
-              Receive Great Offers and Event Updates
-            </h4>
-          </div>
-          <div class="col-xl-6">
+        <div class="flex items-center w-full justify-between px-10 gap-x-10">
+          <h4 class="!mb-0 text-nowrap">
+            Receive Great Offers and Event Updates
+          </h4>
+
+          <div class="w-full">
             <form class="mad-newsletter-form one-line">
               <input
                 type="email"

@@ -392,6 +392,21 @@ table .mad-product-price:before,
   text-align: center;
 }
 
+.mad-icon-boxes.with-arrows .mad-col:not(:last-child) .mad-icon-box:after {
+  content: "";
+  position: absolute;
+  left: 90%;
+  top: 1.5rem;
+
+  background-image: url(/next_step.svg);
+  background-size: contain; /* Ensure the icon fits */
+  background-repeat: no-repeat;
+
+  background-color: #fff;
+  width: 151px;
+  height: 31px;
+}
+
 .mad-products:not(.mad-product-small)
   .mad-product-description:not(:last-child) {
   margin-bottom: 1.25rem;

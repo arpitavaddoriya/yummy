@@ -73,6 +73,14 @@
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
+.mad-menu-box:not(.mad-tabs-nav)
+  .mad-menu-item:hover
+  .mad-menu-icon
+  .svg
+  .cls-1 {
+  fill: #eb1e27;
+}
+
 .mad-menu-icon img {
   width: 7.5vw;
 

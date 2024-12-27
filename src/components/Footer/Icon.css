@@ -1,0 +1,35 @@
+.svg-icon {
+  cursor: pointer;
+  transition: fill 0.3s, stroke 0.3s;
+}
+
+.cls-1 {
+  fill: #e9e8e9;
+  stroke: #e9e8e9;
+
+  fill-rule: evenodd;
+}
+
+.cls-2 {
+  fill: #e9e8e9;
+  stroke: #eb1e27;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+}
+
+.svg-icon.clicked .cls-1 {
+  fill: #eb1e27; /* Red when clicked */
+  stroke: #ffffff; /* White stroke when clicked */
+}
+
+.svg-icon.clicked .cls-2 {
+  fill: #eb1e27; /* Red fill when clicked */
+  stroke: #ffffff; /* White stroke when clicked */
+}
+
+.svg-icon:hover .cls-1,
+.svg-icon:hover .cls-2 {
+  fill: #eb1e27; /* Invert fill color when hovered */
+  stroke: #ffffff;
+}

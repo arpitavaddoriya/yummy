@@ -44,9 +44,9 @@ h2.mad-page-title {
   color: #666;
   margin: 0; /* Ensures no extra margin below the description */
 }
-.mad-icon-boxes.style-3 .mad-icon-box .mad-icon-box-icon .svg path {
-  fill: #eb0029; /* Fills the path with red */
-}
+/* .mad-icon-boxes.style-3 .mad-icon-box .mad-icon-box-icon .svg path {
+  fill: #eb0029; 
+} */
 
 .mad-icon-box .mad-icon-box-icon .svg .cls-1 {
   stroke: none; /* Removes any stroke, as you want a fill */
@@ -69,9 +69,9 @@ h2.mad-page-title {
 }
 
 /* Ensure that .svg path is correctly targeted if it has specific classes or IDs */
-.svg path {
-  fill: #eb0029 !important; /* Overrides any other conflicting styles */
-}
+/* .svg path {
+  fill: #eb0029 !important; 
+} */
 
 .mad-icon-box .mad-icon-box-title {
   letter-spacing: -1px;
@@ -368,11 +368,11 @@ table .mad-product-price:before,
   align-items: center; /* Center align both elements horizontally */
 }
 
-.mad-label .svg path {
+/* .mad-label .svg path {
   stroke: #fff;
   stroke-width: 1rem;
   fill: transparent;
-}
+} */
 
 .mad-label .svg {
   height: 18px;

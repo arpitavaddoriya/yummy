@@ -89,15 +89,24 @@ const Menu = () => {
     //     </div>
     //   </div>
     // </div>
-    <div className="grid grid-cols-6">
-      {menu?.map((item) => {
-        return (
-          <div className="  group">
-            <div className="flex items-center justify-center">{item.icon}</div>
-            <div className="text-center text-black">{item.name}</div>
-          </div>
-        );
-      })}
+    <div className="h-60 relative">
+      <div className="absolute left-1/2 -translate-x-1/2 -top-20 grid grid-cols-6 w-11/12 mx-auto h-56 items-center rounded-3xl overflow-hidden bg-gray-100">
+        {menu?.map((item) => {
+          return (
+            <div className="group h-full flex flex-col items-center justify-center hover:bg-yellow-400 duration-300">
+              <div className="flex items-center justify-center">
+                {item.icon}
+              </div>
+              <div
+                className="text-center text-black font-semibold text-lg
+             "
+              >
+                {item.name}
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };

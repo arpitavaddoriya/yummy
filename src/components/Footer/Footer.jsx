@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="mad-footer-main">
         <div className="container">
           <div className="row vr-size-1">
-            <div className="col-lg-6">
+            <div className="col-lg-6 ">
               <section className="mad-widget">
                 <div className="content-element-5">
                   <a href="#" className="mad-logo">
@@ -57,7 +57,7 @@ const Footer = () => {
                 </div>
               </section>
             </div>
-            <div className="col-lg-2">
+            <div className="col-lg-2 w-60">
               <section className="mad-widget">
                 <h5 className="mad-widget-title">Menu</h5>
                 <div className="mad-vr-list">
@@ -96,7 +96,7 @@ const Footer = () => {
                 </div>
               </section>
             </div>
-            <div className="col-lg-2">
+            <div className="col-lg-2 w-55">
               <section className="mad-widget">
                 <h5 className="mad-widget-title">Company</h5>
                 <div className="mad-vr-list">
@@ -135,7 +135,7 @@ const Footer = () => {
                 </div>
               </section>
             </div>
-            <div className="col-lg-2">
+            <div className="col-lg-2 ">
               <section className="mad-widget">
                 <h5 className="mad-widget-title">Support</h5>
                 <div className="mad-vr-list">

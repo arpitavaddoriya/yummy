@@ -6,14 +6,78 @@ const Testimonials = () => {
     <>
       <div className="py-20 flexvflex-col items-center justify-center">
         <h2 className="text-center">Customer Testimonials</h2>
-
-        {/* Testimonials Section */}
         <div className="mad-testimonials">
           <div className="mad-grid mad-grid--cols-2 owl-carousel">
             {/* Testimonial Item */}
             <div className="mad-grid-item">
               <div className="mad-testimonial">
-                <div data-estimate="5" className="mad-rating"></div>
+                <div
+                  className="mad-rating"
+                  style={{ position: "relative", display: "inline-block" }}
+                >
+                  <div
+                    className="mad-rating-top-level"
+                    style={{
+                      position: "absolute",
+                      inset: 0,
+
+                      whiteSpace: "nowrap",
+                      overflow: "hidden",
+                      width: "100%",
+                    }}
+                  >
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                  </div>
+                  <div
+                    className="mad-rating-bottom-level"
+                    style={{ position: "relative" }}
+                  >
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                  </div>
+                </div>
                 <div className="mad-testimonial-info">
                   <blockquote>
                     <p>
@@ -38,7 +102,73 @@ const Testimonials = () => {
             {/* Testimonial Item */}
             <div className="mad-grid-item">
               <div className="mad-testimonial">
-                <div data-estimate="5" className="mad-rating"></div>
+                <div
+                  className="mad-rating"
+                  style={{ position: "relative", display: "inline-block" }}
+                >
+                  <div
+                    className="mad-rating-top-level"
+                    style={{
+                      position: "absolute",
+                      inset: 0,
+
+                      whiteSpace: "nowrap",
+                      overflow: "hidden",
+                      width: "100%",
+                    }}
+                  >
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                  </div>
+                  <div
+                    className="mad-rating-bottom-level"
+                    style={{ position: "relative" }}
+                  >
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                  </div>
+                </div>
                 <div className="mad-testimonial-info">
                   <blockquote>
                     <p>
@@ -63,7 +193,73 @@ const Testimonials = () => {
             {/* Testimonial Item */}
             <div className="mad-grid-item">
               <div className="mad-testimonial">
-                <div data-estimate="5" className="mad-rating"></div>
+                <div
+                  className="mad-rating"
+                  style={{ position: "relative", display: "inline-block" }}
+                >
+                  <div
+                    className="mad-rating-top-level"
+                    style={{
+                      position: "absolute",
+                      inset: 0,
+
+                      whiteSpace: "nowrap",
+                      overflow: "hidden",
+                      width: "100%",
+                    }}
+                  >
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                  </div>
+                  <div
+                    className="mad-rating-bottom-level"
+                    style={{ position: "relative" }}
+                  >
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                  </div>
+                </div>
                 <div className="mad-testimonial-info">
                   <blockquote>
                     <p>
@@ -83,25 +279,91 @@ const Testimonials = () => {
               </div>
             </div>
 
+            {/* Testimonial Item */}
             <div className="mad-grid-item">
               <div className="mad-testimonial">
-                <div data-estimate="5" className="mad-rating">
-                  <div className="mad-testimonial-info">
-                    <blockquote>
-                      <p>
-                        “Suspendisse sollicitudin velit sed leo. Ut pharetra
-                        augue nec augue. Nam elit agna, endrerit sit amet,
-                        tincidunt ac, viverra sed, nulla.”
-                      </p>
-                    </blockquote>
+                <div
+                  className="mad-rating"
+                  style={{ position: "relative", display: "inline-block" }}
+                >
+                  <div
+                    className="mad-rating-top-level"
+                    style={{
+                      position: "absolute",
+                      inset: 0,
+
+                      whiteSpace: "nowrap",
+                      overflow: "hidden",
+                      width: "100%",
+                    }}
+                  >
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
+                    <i
+                      className="material-icons active"
+                      style={{ color: "#B8860B" }}
+                    >
+                      star
+                    </i>
                   </div>
-                  <div className="mad-author">
-                    <div className="mad-author-img">
-                      <img src="/96x96_photo4.jpg" alt="Ivana Wong" />
-                    </div>
-                    <div className="mad-author-info">
-                      <cite>Ivana Wong, TX, USA</cite>
-                    </div>
+                  <div
+                    className="mad-rating-bottom-level"
+                    style={{ position: "relative" }}
+                  >
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: " #B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                    <i className="material-icons" style={{ color: "#B8860B" }}>
+                      star
+                    </i>
+                  </div>
+                </div>
+                <div className="mad-testimonial-info">
+                  <blockquote>
+                    <p>
+                      “Suspendisse sollicitudin velit sed leo. Ut pharetra augue
+                      nec augue. Nam elit agna, endrerit sit amet, tincidunt ac,
+                      viverra sed, nulla.”
+                    </p>
+                  </blockquote>
+                </div>
+                <div className="mad-author">
+                  <div className="mad-author-img">
+                    <img src="/96x96_photo4.jpg" alt="Ivana Wong" />
+                  </div>
+                  <div className="mad-author-info">
+                    <cite>Ivana Wong, TX, USA</cite>
                   </div>
                 </div>
               </div>

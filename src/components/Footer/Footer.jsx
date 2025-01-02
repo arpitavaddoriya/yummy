@@ -57,7 +57,7 @@ const Footer = () => {
                 </div>
               </section>
             </div>
-            <div className="col-lg-2 w-60">
+            <div className="col-lg-2">
               <section className="mad-widget">
                 <h5 className="mad-widget-title">Menu</h5>
                 <div className="mad-vr-list">

@@ -380,7 +380,7 @@ table .mad-product-price:before,
 
 .mad-label {
   position: absolute;
-  z-index: 2;
+
   top: 0.5rem;
   right: 0.5rem;
   line-height: 2.2rem;

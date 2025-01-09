@@ -124,6 +124,7 @@ const Navbar = () => {
                 </li>
                 <li className="menu-item menu-item-has-children mega-menu">
                   <a href="#">ELEMENTS</a>
+
                   <ul className="sub-menu">
                     <li
                       className="menu-item menu-item-

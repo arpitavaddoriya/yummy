@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState } from "react"; // <-- Make sure useState is imported
 import "./Worksection.css";
 const WorkSection = () => {
+  // State to keep track of the current active page (carousel page)
+  const [activePage, setActivePage] = useState(1);
+
+  // Function to handle the page change
+  const handlePageChange = (pageNumber) => {
+    setActivePage(pageNumber);
+  };
+
   return (
     <>
       <div className="py-20 bg-yellow-400 flexvflex-col items-center justify-center">
@@ -298,14 +306,26 @@ const WorkSection = () => {
         </div>
       </div>
 
-      <div class="owl-dots">
-        <button role="button" class="owl-dot active">
+      <div className="owl-dots">
+        <button
+          role="button"
+          className={`owl-dot ${activePage === 1 ? "active" : ""}`}
+          onClick={() => handlePageChange(1)}
+        >
           <span></span>
         </button>
-        <button role="button" class="owl-dot">
+        <button
+          role="button"
+          className={`owl-dot ${activePage === 2 ? "active" : ""}`}
+          onClick={() => handlePageChange(2)}
+        >
           <span></span>
         </button>
-        <button role="button" class="owl-dot">
+        <button
+          role="button"
+          className={`owl-dot ${activePage === 3 ? "active" : ""}`}
+          onClick={() => handlePageChange(3)}
+        >
           <span></span>
         </button>
       </div>

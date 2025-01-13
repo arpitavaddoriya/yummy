@@ -1,12 +1,15 @@
-import React, { useState } from "react"; // <-- Make sure useState is imported
 import "./Worksection.css";
-const WorkSection = () => {
-  // State to keep track of the current active page (carousel page)
-  const [activePage, setActivePage] = useState(1);
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-  // Function to handle the page change
-  const handlePageChange = (pageNumber) => {
-    setActivePage(pageNumber);
+const WorkSection = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
   };
 
   return (
@@ -164,16 +167,19 @@ const WorkSection = () => {
           {/* owl item */}
           <div className="mad-grid-item">
             {/* Product */}
+
             <div className="mad-product">
               <figure className="mad-product-image">
                 <div className="mad-label">
                   <img className="svg" src="/carrot.svg" alt="" />
                 </div>
+
                 <a href="#">
                   <img src="/264x264_img1.jpg" alt="" />
                 </a>
               </figure>
               {/* product-desc */}
+
               <div className="mad-product-description">
                 <h4 className="mad-product-title">
                   <a href="#" className="mad-link">
@@ -248,7 +254,10 @@ const WorkSection = () => {
                 </a>
               </figure>
               {/* product-desc */}
-              <div className="mad-product-description">
+              <div
+                className="mad-product-
+              description"
+              >
                 <h4 className="mad-product-title">
                   <a href="#" className="mad-link">
                     Pepperoni
@@ -304,30 +313,6 @@ const WorkSection = () => {
           </div>
           {/* / owl item */}
         </div>
-      </div>
-
-      <div className="owl-dots">
-        <button
-          role="button"
-          className={`owl-dot ${activePage === 1 ? "active" : ""}`}
-          onClick={() => handlePageChange(1)}
-        >
-          <span></span>
-        </button>
-        <button
-          role="button"
-          className={`owl-dot ${activePage === 2 ? "active" : ""}`}
-          onClick={() => handlePageChange(2)}
-        >
-          <span></span>
-        </button>
-        <button
-          role="button"
-          className={`owl-dot ${activePage === 3 ? "active" : ""}`}
-          onClick={() => handlePageChange(3)}
-        >
-          <span></span>
-        </button>
       </div>
 
       <div class="align-center">

@@ -378,6 +378,22 @@ table .mad-product-price:before,
   height: 18px;
 }
 
+.owl-carousel .item {
+  background: #4a90e2;
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.owl-carousel .owl-nav button {
+  background-color: #000;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span {
+  background-color: #4a90e2;
+}
+
 .mad-label {
   position: absolute;
 

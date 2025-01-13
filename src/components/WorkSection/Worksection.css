@@ -295,9 +295,9 @@ p {
 }
 
 /* Product description */
-.mad-product-description {
-  padding: 15px;
-}
+
+
+
 
 .mad-product-price:not(:last-child) {
   margin-bottom: 1.5rem;

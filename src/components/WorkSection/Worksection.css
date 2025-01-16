@@ -296,13 +296,12 @@ p {
 
 /* Product description */
 
-
-
-
 .mad-product-price:not(:last-child) {
   margin-bottom: 1.5rem;
 }
 .mad-product-price {
+
+
   position: relative;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.5rem;

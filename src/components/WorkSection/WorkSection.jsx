@@ -301,6 +301,7 @@ const WorkSection = () => {
                   cherry tomato, basil and parmesan.
                 </p>
               </div>
+
               {/* /product-desc */}
               <div className="mad-product-calc">
                 <span className="mad-product-price">14.99</span>

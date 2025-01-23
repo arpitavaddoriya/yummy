@@ -65,7 +65,9 @@ const WorkSection = () => {
               </i>
               <div className="mad-icon-box-content">
                 <h5 className="mad-icon-box-title">1. Select Your Food</h5>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                <p className="text-lg">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                </p>
               </div>
             </article>
           </div>
@@ -76,7 +78,9 @@ const WorkSection = () => {
               </i>
               <div className="mad-icon-box-content">
                 <h5 className="mad-icon-box-title">2. Pay With Card or Cash</h5>
-                <p>Mauris fermentum dictum magna. Sed laoreet aliquam leo.</p>
+                <p className="text-lg">
+                  Mauris fermentum dictum magna. Sed laoreet aliquam leo.
+                </p>
               </div>
             </article>
           </div>
@@ -87,7 +91,7 @@ const WorkSection = () => {
               </i>
               <div className="mad-icon-box-content">
                 <h5 className="mad-icon-box-title">3. Pickup or Delivery</h5>
-                <p>
+                <p className="text-lg">
                   Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend,
                   elit.
                 </p>

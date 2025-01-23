@@ -29,7 +29,7 @@ const Section = () => {
                   <h6 className="mad-icon-box-title">
                     <b>Premium Quality</b>
                   </h6>
-                  <p>
+                  <p className="text-lg">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                   </p>
                 </div>
@@ -48,7 +48,7 @@ const Section = () => {
                   <h6 className="mad-icon-box-title">
                     <b>Always Fresh</b>
                   </h6>
-                  <p>
+                  <p className="text-lg">
                     Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac
                     turpis.
                   </p>
@@ -68,7 +68,7 @@ const Section = () => {
                   <h6 className="mad-icon-box-title">
                     <b>Variety of Dishes</b>
                   </h6>
-                  <p>
+                  <p className="text-lg">
                     Suspendisse sollicitudin velit sed leo. Ut pharetra augue
                     nec augue.
                   </p>
@@ -88,7 +88,7 @@ const Section = () => {
                   <h6 className="mad-icon-box-title">
                     <b>Fastest Delivery</b>
                   </h6>
-                  <p>
+                  <p className="text-lg">
                     Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac
                     turpis.
                   </p>

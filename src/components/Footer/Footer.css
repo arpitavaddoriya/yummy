@@ -46,13 +46,14 @@ h6:not(:last-child) {
 }
 
 .mad-link {
-  
+  color: #ebe117;
   border-bottom: 1px solid transparent;
 }
-
-.mad-link:hover {
-  border-color: #ebe117;
+.mad-link, a, button {
+  transition: all .5s ease;
 }
+
+
 
 .mad-our-info.vr-type .mad-info:not(:last-child) {
   margin-bottom: 0;
@@ -140,6 +141,9 @@ h5 {
 .mad-footer .mad-footer-main {
   padding: 8.75rem 0;
 }
+
+
+
 
 /* Footer Bottom */
 

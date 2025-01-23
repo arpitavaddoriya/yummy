@@ -52,10 +52,9 @@ const WorkSection = () => {
       <div className="py-20 bg-yellow-400 flex flex-col items-center justify-center">
         <div>
           <h2 className="text-center">How It Works</h2>
-          <p className="w-1/3 text-center mx-auto">
+          <p className="w-1/2 text-center mx-auto">
             Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at,
-            neque. Vivamus eget nibh. Etiam cursus leo vel metus. Nulla
-            facilisi.
+            neque. Vivamus eget nibh. Etiam cursus leo vel metus.
           </p>
         </div>
         <div className="flex relative">

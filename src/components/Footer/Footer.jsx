@@ -35,7 +35,7 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faLocationDot} />
                     <span>
                       8901 Marmora Road, New York, NY 10013 <br />
-                      <a href="#" className="mad-link mad-dir">
+                      <a href="#" className="mad-link mad-dir text-yellow-400">
                         Get Directions
                       </a>
                     </span>
@@ -46,7 +46,10 @@ const Footer = () => {
                   </div>
                   <div className="mad-info">
                     <FontAwesomeIcon icon={faEnvelope} />
-                    <a href="mailto:mail@companyname.com" className="mad-link">
+                    <a
+                      href="mailto:mail@companyname.com"
+                      className="mad-link text-yellow-400"
+                    >
                       mail@companyname.com
                     </a>
                   </div>
@@ -60,10 +63,10 @@ const Footer = () => {
             <div className="col-lg-2">
               <section className="mad-widget">
                 <h5 className="mad-widget-title">Menu</h5>
-                <div className="mad-vr-list">
+                <div className="mad-vr-list text-yellow-400 ">
                   <ul>
                     <li>
-                      <a href="#" className="mad-link">
+                      <a href="#" className="mad-link  ">
                         Pizza
                       </a>
                     </li>
@@ -99,7 +102,7 @@ const Footer = () => {
             <div className="col-lg-2 w-55">
               <section className="mad-widget">
                 <h5 className="mad-widget-title">Company</h5>
-                <div className="mad-vr-list">
+                <div className="mad-vr-list text-yellow-400">
                   <ul>
                     <li>
                       <a href="#" className="mad-link">
@@ -138,7 +141,7 @@ const Footer = () => {
             <div className="col-lg-2 ">
               <section className="mad-widget">
                 <h5 className="mad-widget-title">Support</h5>
-                <div className="mad-vr-list">
+                <div className="mad-vr-list text-yellow-400">
                   <ul>
                     <li>
                       <a href="#" className="mad-link">
@@ -179,12 +182,12 @@ const Footer = () => {
       </div>
 
       <div className="mad-footer-bottom">
-        <div className="container">
-          <p className="copyrights">
+        <div className="container flex justify-between items-center py-4">
+          <p className="copyrights text-left">
             Copyright © 2021 Yummi. All Rights Reserved.
           </p>
           <div className="mad-social-icons">
-            <ul>
+            <ul className="flex space-x-4">
               <li>
                 <a href="#">
                   <FontAwesomeIcon icon={faFacebookF} />

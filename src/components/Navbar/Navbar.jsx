@@ -333,7 +333,7 @@ const Navbar = () => {
                 <i className="material-icons-outlined">call</i>
                 <div className="mad-info-content">
                   <span>Call us for ordering</span>
-                  <div className="mad-info-title text-2xl">+1 800 559 6580</div>
+                  <div className="mad-info-title text-xl">+1 800 559 6580</div>
                 </div>
               </div>
             </div>

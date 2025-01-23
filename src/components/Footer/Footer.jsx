@@ -186,32 +186,47 @@ const Footer = () => {
           <p className="copyrights text-left">
             Copyright © 2021 Yummi. All Rights Reserved.
           </p>
-          <div className="mad-social-icons">
+          <div className="mad-social-icons ">
             <ul className="flex space-x-4">
               <li>
                 <a href="#">
-                  <FontAwesomeIcon icon={faFacebookF} />
+                  <FontAwesomeIcon
+                    icon={faFacebookF}
+                    className="text-yellow-400"
+                  />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <FontAwesomeIcon icon={faTwitter} />
+                  <FontAwesomeIcon
+                    icon={faTwitter}
+                    className="text-yellow-400"
+                  />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <FontAwesomeIcon icon={faInstagram} />
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className="text-yellow-400"
+                  />
                 </a>
               </li>
 
               <li>
                 <a href="#">
-                  <FontAwesomeIcon icon={faYoutube} />
+                  <FontAwesomeIcon
+                    icon={faYoutube}
+                    className="text-yellow-400"
+                  />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <FontAwesomeIcon icon={faPinterestP} />
+                  <FontAwesomeIcon
+                    icon={faPinterestP}
+                    className="text-yellow-400"
+                  />
                 </a>
               </li>
             </ul>

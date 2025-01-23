@@ -219,11 +219,8 @@ const WorkSection = () => {
                   </figure>
 
                   {/* product-desc */}
-                  <div className="mad-product-description">
-                    <h4
-                      className="mad-product-tit
-                    le"
-                    >
+                  <div className="mad-product-description text-sm">
+                    <h4 className="mad-product- text-black">
                       <a href="#" className="mad-link">
                         {product.title}
                       </a>

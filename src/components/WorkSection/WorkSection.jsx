@@ -7,52 +7,87 @@ const WorkSection = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    speed: 1500,
+    slidesToShow: 4, // Show 4 slides at a time
+    slidesToScroll: 4, // Scroll 4 slides at a time
   };
+
+  const products = [
+    {
+      image: "/264x264_img1.jpg",
+      title: "Margherita",
+      description:
+        "Italian tomato sauce, mozzarella, fresh basil, parmesan cheese, olive oil",
+      price: "9.99",
+    },
+    {
+      image: "/264x264_img2.jpg",
+      title: "Original Prosciutto",
+      description:
+        "Italian tomato sauce, buffalo mozzarella with prosciutto di parma, fresh basil and parmesan",
+      price: "11.99",
+    },
+    {
+      image: "/264x264_img3.jpg",
+      title: "Pepperoni",
+      description:
+        "Italian tomato sauce, mozzarella, spicy pepperoni, fresh basil and parmesan",
+      price: "17.99",
+    },
+    {
+      image: "/264x264_img4.jpg",
+      title: "Quattro Formaggi",
+      description:
+        "White base pizza, mozzarella, provolone, pecorino, gorgonzola, cherry tomato, basil",
+      price: "14.99",
+    },
+  ];
+
+  // Replicating the product list 3 times for the effect you need (3 slides)
+  const repeatedProducts = [...products, ...products, ...products]; // Repeat products 3 times
 
   return (
     <>
-      <div className="py-20 bg-yellow-400 flexvflex-col items-center justify-center">
-        <div class="">
-          <h2 className="text-center"> How It Works</h2>
-          <p className="w-1/3 text-center mx-auto ">
+      {/* How it works section */}
+      <div className="py-20 bg-yellow-400 flex flex-col items-center justify-center">
+        <div>
+          <h2 className="text-center">How It Works</h2>
+          <p className="w-1/3 text-center mx-auto">
             Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at,
             neque. Vivamus eget nibh. Etiam cursus leo vel metus. Nulla
             facilisi.
           </p>
         </div>
-        <div class="flex relative">
-          <div class="mad-col">
-            <article class="mad-icon-box">
-              <i class="mad-icon-box-icon ">
-                <img class="svg" src="/cartIcon.svg" alt="" />
+        <div className="flex relative">
+          <div className="mad-col">
+            <article className="mad-icon-box">
+              <i className="mad-icon-box-icon">
+                <img className="svg" src="/cartIcon.svg" alt="" />
               </i>
-              <div class="mad-icon-box-content">
-                <h5 class="mad-icon-box-title">1. Select Your Food</h5>
+              <div className="mad-icon-box-content">
+                <h5 className="mad-icon-box-title">1. Select Your Food</h5>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
               </div>
             </article>
           </div>
-          <div class="mad-col">
-            <article class="mad-icon-box">
-              <i class="mad-icon-box-icon">
-                <img class="svg" src="/walletIcon.svg" alt="" />
+          <div className="mad-col">
+            <article className="mad-icon-box">
+              <i className="mad-icon-box-icon">
+                <img className="svg" src="/walletIcon.svg" alt="" />
               </i>
-              <div class="mad-icon-box-content">
-                <h5 class="mad-icon-box-title">2. Pay With Card or Cash</h5>
+              <div className="mad-icon-box-content">
+                <h5 className="mad-icon-box-title">2. Pay With Card or Cash</h5>
                 <p>Mauris fermentum dictum magna. Sed laoreet aliquam leo.</p>
               </div>
             </article>
           </div>
-          <div class="mad-col">
-            <article class="mad-icon-box">
-              <i class="mad-icon-box-icon">
-                <img class="svg" src="/delievryIcon.svg" alt="" />
+          <div className="mad-col">
+            <article className="mad-icon-box">
+              <i className="mad-icon-box-icon">
+                <img className="svg" src="/delievryIcon.svg" alt="" />
               </i>
-              <div class="mad-icon-box-content">
-                <h5 class="mad-icon-box-title">3. Pickup or Delivery</h5>
+              <div className="mad-icon-box-content">
+                <h5 className="mad-icon-box-title">3. Pickup or Delivery</h5>
                 <p>
                   Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend,
                   elit.
@@ -61,33 +96,34 @@ const WorkSection = () => {
             </article>
           </div>
           <div className="absolute left-1/6 top-1/2">
-            <img class="svg " src="/next_step.svg" alt="" />
+            <img className="svg" src="/next_step.svg" alt="" />
           </div>
         </div>
-        <div class="align-center">
-          <a href="#" class="btn btn-style-3 btn-big">
+        <div className="align-center">
+          <a href="#" className="btn btn-style-3 btn-big">
             Order Now
           </a>
         </div>
       </div>
 
-      <div class="mad-section">
-        <h2 class="text-center">Discover Our Menu</h2>
+      {/* Product Slider Section */}
+      <div className="mad-section">
+        <h2 className="text-center">Discover Our Menu</h2>
 
-        <div class="mad-tabs">
+        <div className="mad-tabs">
           <div
             role="tablist"
             aria-label="Tabs v1"
-            class="mad-tabs-nav justify-content-center"
+            className="mad-tabs-nav justify-content-center"
           >
-            <span class="mad-active">
+            <span className="mad-active">
               <a
                 id="tab-1-link"
                 href="#tab-1"
                 role="tab"
                 aria-selected="false"
                 aria-controls="tab-1"
-                class="mad-tab-link"
+                className="mad-tab-link"
               >
                 Pizza
               </a>
@@ -99,7 +135,7 @@ const WorkSection = () => {
                 role="tab"
                 aria-selected="true"
                 aria-controls="tab-2"
-                class="mad-tab-link"
+                className="mad-tab-link"
               >
                 Pasta
               </a>
@@ -111,7 +147,7 @@ const WorkSection = () => {
                 role="tab"
                 aria-selected="false"
                 aria-controls="tab-3"
-                class="mad-tab-link"
+                className="mad-tab-link"
               >
                 Burgers
               </a>
@@ -123,7 +159,7 @@ const WorkSection = () => {
                 role="tab"
                 aria-selected="false"
                 aria-controls="tab-4"
-                class="mad-tab-link"
+                className="mad-tab-link"
               >
                 Sides
               </a>
@@ -135,7 +171,7 @@ const WorkSection = () => {
                 role="tab"
                 aria-selected="false"
                 aria-controls="tab-5"
-                class="mad-tab-link"
+                className="mad-tab-link"
               >
                 Desserts
               </a>
@@ -147,7 +183,7 @@ const WorkSection = () => {
                 role="tab"
                 aria-selected="false"
                 aria-controls="tab-6"
-                class="mad-tab-link"
+                className="mad-tab-link"
               >
                 Drinks
               </a>
@@ -163,161 +199,55 @@ const WorkSection = () => {
         aria-labelledby="tab-1-link"
         className="mad-tab"
       >
-        <div className="mad-products owl-carousel mad-grid mad-grid--cols-4">
-          {/* owl item */}
-          <div className="mad-grid-item">
-            {/* Product */}
-
-            <div className="mad-product">
-              <figure className="mad-product-image">
-                <div className="mad-label">
-                  <img className="svg" src="/carrot.svg" alt="" />
-                </div>
-
-                <a href="#">
-                  <img src="/264x264_img1.jpg" alt="" />
-                </a>
-              </figure>
-              {/* product-desc */}
-
-              <div className="mad-product-description">
-                <h4 className="mad-product-title">
-                  <a href="#" className="mad-link">
-                    Margherita
-                  </a>
-                </h4>
-                <p>
-                  Italian tomato sauce, mozzarella, fresh basil, parmesan
-                  cheese, olive oil
-                </p>
-              </div>
-              {/* /product-desc */}
-              <div className="mad-product-calc">
-                <span className="mad-product-price">9.99</span>
-                <a href="#" className="btn btn-style-3 btn-small">
-                  Select Options
-                </a>
-              </div>
-            </div>
-            {/* End of Product */}
-          </div>
-          {/* / owl item */}
-
-          {/* owl item */}
-          <div className="mad-grid-item">
-            {/* Product */}
-            <div className="mad-product">
-              <figure className="mad-product-image">
-                <a href="#">
-                  <img src="/264x264_img2.jpg" alt="" />
-                </a>
-              </figure>
-              {/* product-desc */}
-              <div className="mad-product-description">
-                <h4 className="mad-product-title">
-                  <a href="#" className="mad-link">
-                    Original Prosciutto
-                  </a>
-                </h4>
-
-                <p>
-                  Italian tomato sauce, buffalo mozzarella with prosciutto di
-                  parma, fresh basil and parmesan
-                </p>
-              </div>
-              {/* /product-desc */}
-              <div className="mad-product-calc">
-                <span className="mad-product-price">11.99</span>
-                <a href="#" className="btn btn-style-3 btn-small">
-                  Select Options
-                </a>
-              </div>
-            </div>
-            {/* End of Product */}
-          </div>
-          {/* / owl item */}
-
-          {/* owl item */}
-          <div className="mad-grid-item">
-            {/* Product */}
-            <div className="mad-product">
-              <figure className="mad-product-image">
-                <div className="mad-label red">
-                  <img
-                    className="svg"
-                    src="yummi_svg_icons/chili_pepper.svg"
-                    alt=""
-                  />
-                </div>
-                <a href="#">
-                  <img src="/264x264_img3.jpg" alt="" />
-                </a>
-              </figure>
-              {/* product-desc */}
+        <div className="slider-container">
+          <Slider {...settings}>
+            {repeatedProducts.map((product, index) => (
               <div
-                className="mad-product-
-              description"
+                className="mad-grid-item hover:border border-yellow-600 h-full"
+                key={index}
+                style={{ marginRight: "15px" }} // Add margin here\
               >
-                <h4 className="mad-product-title">
-                  <a href="#" className="mad-link">
-                    Pepperoni
-                  </a>
-                </h4>
-                <p>
-                  Italian tomato sauce, mozzarella, spicy pepperoni, fresh basil
-                  and parmesan
-                </p>
-              </div>
-              {/* /product-desc */}
-              <div className="mad-product-calc">
-                <span className="mad-product-price">17.99</span>
-                <a href="#" className="btn btn-style-3 btn-small">
-                  Select Options
-                </a>
-              </div>
-            </div>
-            {/* End of Product */}
-          </div>
-          {/* / owl item */}
+                {/* Product */}
+                <div className="mad-product">
+                  <figure className="mad-product-image style={{ marginBottom: '15px' }}">
+                    <a href="#">
+                      <img
+                        className="p-5"
+                        src={product.image}
+                        alt={product.title}
+                      />
+                    </a>
+                  </figure>
 
-          {/* owl item */}
-          <div className="mad-grid-item">
-            {/* Product */}
-            <div className="mad-product">
-              <figure className="mad-product-image">
-                <a href="#">
-                  <img src="/264x264_img4.jpg" alt="" />
-                </a>
-              </figure>
-              {/* product-desc */}
-              <div className="mad-product-description">
-                <h4 className="mad-product-title">
-                  <a href="#" className="mad-link">
-                    Quattro Formaggi
-                  </a>
-                </h4>
-                <p>
-                  White base pizza, mozzarella, provolone, pecorino, gorgonzola,
-                  cherry tomato, basil and parmesan.
-                </p>
-              </div>
+                  {/* product-desc */}
+                  <div className="mad-product-description">
+                    <h4
+                      className="mad-product-tit
+                    le"
+                    >
+                      <a href="#" className="mad-link">
+                        {product.title}
+                      </a>
+                    </h4>
+                    <p>{product.description}</p>
+                  </div>
 
-              {/* /product-desc */}
-              <div className="mad-product-calc">
-                <span className="mad-product-price">14.99</span>
-                <a href="#" className="btn btn-style-3 btn-small">
-                  Select Options
-                </a>
+                  <div className="mad-product-calc">
+                    <span className="mad-product-price">{product.price}</span>
+                    <a href="#" className="btn btn-style-3 btn-small">
+                      Select Options
+                    </a>
+                  </div>
+                </div>
+                {/* End of Product */}
               </div>
-            </div>
-            {/* End of Product */}
-          </div>
-          {/* / owl item */}
+            ))}
+          </Slider>
         </div>
       </div>
 
-      <div class="align-center">
-        <a href="#" class="btn btn-style-2 btn-big">
+      <div className="align-center">
+        <a href="#" className="btn btn-style-2 btn-big">
           View All Menu
         </a>
       </div>

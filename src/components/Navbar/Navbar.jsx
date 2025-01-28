@@ -266,7 +266,7 @@ const Navbar = () => {
                       <a href="shop_front.html">Shop Without Sidebar</a>
                     </li>
                     <li className="menu-item">
-                      <a href="shop_create.html">Create Your Own Pizza</a>
+                      <a href="shop_create.html"></a>
                     </li>
                     <li className="menu-item">
                       <a href="shop_single.html">Single Product Page</a>

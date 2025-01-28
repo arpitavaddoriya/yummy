@@ -31,7 +31,7 @@ const Tab = () => {
             /944x648_bg2.jpg"
             style={{ backgroundImage: `url('/944x648_bg2.jpg')` }}
           >
-            <div class="mad-half-content">
+            <div class="mad-half-content text-center">
               <div class="content-element-6">
                 <h2 class="mad-page-title">Create Your Own Burger</h2>
                 <p>

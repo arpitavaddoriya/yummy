@@ -20,17 +20,12 @@
   display: flex;
   background-size: cover;
   padding: 10rem 3.875rem;
-    
-   
-    overflow: hidden;
-    overflow-x: hidden;
-    overflow-y: hidden;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
   position: relative;
   z-index: 0;
-  
-  
-  
-}
+  }
 
 .mad-half-content .mad-page-title:not(:last-child) {
   margin-bottom: 0;

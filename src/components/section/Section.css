@@ -151,6 +151,8 @@ p {
   transition: transform 0.3s ease;
 }
 
+
+
 @media (max-width: 991px) {
   .col-lg-6 {
     flex: 1 1 100%;

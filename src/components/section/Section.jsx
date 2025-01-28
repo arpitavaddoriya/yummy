@@ -97,6 +97,7 @@ const Section = () => {
             </div>
           </div>
         </div>
+
         <div className="col-lg-6">
           <div className="mad-img">
             <img src="/688x944_img1.jpg" alt="Delicious Food" />
